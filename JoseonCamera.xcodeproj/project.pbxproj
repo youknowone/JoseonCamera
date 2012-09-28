@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* JoseonCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* JoseonCameraAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2899E5220DE3E06400AC0155 /* JoseonCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* JoseonCameraViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* JoseonCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* JoseonCameraViewController.m */; };
+		2D5C957611AF8CC60062F4C0 /* ads.html in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C957511AF8CC60062F4C0 /* ads.html */; };
+		2D5E0C6C11A73B19001EF8BB /* no1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E0C6B11A73B19001EF8BB /* no1.png */; };
+		2DD3DC7611A8909000A7460B /* FontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD3DC7511A8909000A7460B /* FontViewController.m */; };
+		2DD3DC7811A8909F00A7460B /* FontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD3DC7711A8909F00A7460B /* FontViewController.xib */; };
+		2DEC88071270C87D000C8670 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC88061270C87D000C8670 /* Icon72.png */; };
+		2DF30AC511A8971E00D9810B /* num1_1_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30ABF11A8971E00D9810B /* num1_1_0.png */; };
+		2DF30AC611A8971E00D9810B /* num1_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AC011A8971E00D9810B /* num1_1_1.png */; };
+		2DF30AC711A8971E00D9810B /* num1_1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AC111A8971E00D9810B /* num1_1_2.png */; };
+		2DF30AC811A8971E00D9810B /* num1_2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AC211A8971E00D9810B /* num1_2_1.png */; };
+		2DF30AC911A8971E00D9810B /* num1_2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AC311A8971E00D9810B /* num1_2_2.png */; };
+		2DF30ACA11A8971E00D9810B /* num1_2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AC411A8971E00D9810B /* num1_2_3.png */; };
+		2DF30AFD11A899FC00D9810B /* 001_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AF511A899FC00D9810B /* 001_blue.png */; };
+		2DF30AFE11A899FC00D9810B /* 002_bloom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AF611A899FC00D9810B /* 002_bloom.png */; };
+		2DF30AFF11A899FC00D9810B /* 002_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AF711A899FC00D9810B /* 002_line.png */; };
+		2DF30B0011A899FC00D9810B /* 003_watered.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AF811A899FC00D9810B /* 003_watered.png */; };
+		2DF30B0111A899FC00D9810B /* 004_ink.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AF911A899FC00D9810B /* 004_ink.png */; };
+		2DF30B0211A899FC00D9810B /* 005_oiled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AFA11A899FC00D9810B /* 005_oiled.png */; };
+		2DF30B0311A899FC00D9810B /* 006_magic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AFB11A899FC00D9810B /* 006_magic.png */; };
+		2DF30B0411A899FC00D9810B /* 007_magic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30AFC11A899FC00D9810B /* 007_magic2.png */; };
+		2DF30CC111A94A1200D9810B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30CC011A94A1200D9810B /* Icon.png */; };
+		2DF30CC511A94A4500D9810B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF30CC411A94A4500D9810B /* Default.png */; };
+		38534936167DA69F0055CDD8 /* cauly_default_banner_ipad_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 38534901167DA69F0055CDD8 /* cauly_default_banner_ipad_large.png */; };
+		38534937167DA69F0055CDD8 /* cauly_default_banner_ipad_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 38534902167DA69F0055CDD8 /* cauly_default_banner_ipad_small.png */; };
+		38534938167DA69F0055CDD8 /* cauly_default_banner_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 38534903167DA69F0055CDD8 /* cauly_default_banner_iphone.png */; };
+		38534939167DA69F0055CDD8 /* libCaulyAds.a ( armv7 , armv7s ) in Frameworks */ = {isa = PBXBuildFile; fileRef = 38534904167DA69F0055CDD8 /* libCaulyAds.a ( armv7 , armv7s ) */; };
+		38534955167DA71E0055CDD8 /* CaulyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38534954167DA71E0055CDD8 /* CaulyHelper.m */; };
+		38534957167DA9A10055CDD8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38534956167DA9A10055CDD8 /* MediaPlayer.framework */; };
+		38534959167DA9B90055CDD8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38534958167DA9B90055CDD8 /* EventKit.framework */; };
+		3853495A167DA9C00055CDD8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89B2121270AD70009A2B21 /* MapKit.framework */; };
+		3853495C167DA9CC0055CDD8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3853495B167DA9CC0055CDD8 /* MessageUI.framework */; };
+		3853495E167DAAC40055CDD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3853495D167DAAC40055CDD8 /* Default@2x.png */; };
+		38534960167DAAE80055CDD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3853495F167DAAE80055CDD8 /* Default-568h@2x.png */; };
+		38534962167DB3630055CDD8 /* Icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 38534961167DB3630055CDD8 /* Icon144.png */; };
+		38B5414113AB418000111244 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B5414013AB418000111244 /* SystemConfiguration.framework */; };
+		38B5414C13AB42E600111244 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B5414B13AB42E600111244 /* CFNetwork.framework */; };
+		38B5414E13AB42F200111244 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B5414D13AB42F200111244 /* CoreLocation.framework */; };
+		38B5415313AB432200111244 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B5415213AB432200111244 /* QuartzCore.framework */; };
+		38B5415513AB432900111244 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B5415413AB432900111244 /* CoreGraphics.framework */; };
+		38B5415713AB450600111244 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 38B5415613AB450600111244 /* Icon114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* JoseonCameraAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoseonCameraAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* JoseonCameraAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoseonCameraAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* JoseonCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoseonCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* JoseonCameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoseonCameraViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* JoseonCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoseonCameraViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* JoseonCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoseonCameraViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D5C957511AF8CC60062F4C0 /* ads.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ads.html; sourceTree = "<group>"; };
+		2D5E0C6B11A73B19001EF8BB /* no1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no1.png; path = ../no1.png; sourceTree = "<group>"; };
+		2D89B2121270AD70009A2B21 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2DD3DC7411A8909000A7460B /* FontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontViewController.h; sourceTree = "<group>"; };
+		2DD3DC7511A8909000A7460B /* FontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontViewController.m; sourceTree = "<group>"; };
+		2DD3DC7711A8909F00A7460B /* FontViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontViewController.xib; sourceTree = "<group>"; };
+		2DEC88061270C87D000C8670 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
+		2DEC880B1270C8AE000C8670 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		2DF30ABF11A8971E00D9810B /* num1_1_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1_1_0.png; sourceTree = "<group>"; };
+		2DF30AC011A8971E00D9810B /* num1_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1_1_1.png; sourceTree = "<group>"; };
+		2DF30AC111A8971E00D9810B /* num1_1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1_1_2.png; sourceTree = "<group>"; };
+		2DF30AC211A8971E00D9810B /* num1_2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1_2_1.png; sourceTree = "<group>"; };
+		2DF30AC311A8971E00D9810B /* num1_2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1_2_2.png; sourceTree = "<group>"; };
+		2DF30AC411A8971E00D9810B /* num1_2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = num1_2_3.png; sourceTree = "<group>"; };
+		2DF30AF511A899FC00D9810B /* 001_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001_blue.png; sourceTree = "<group>"; };
+		2DF30AF611A899FC00D9810B /* 002_bloom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002_bloom.png; sourceTree = "<group>"; };
+		2DF30AF711A899FC00D9810B /* 002_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002_line.png; sourceTree = "<group>"; };
+		2DF30AF811A899FC00D9810B /* 003_watered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003_watered.png; sourceTree = "<group>"; };
+		2DF30AF911A899FC00D9810B /* 004_ink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004_ink.png; sourceTree = "<group>"; };
+		2DF30AFA11A899FC00D9810B /* 005_oiled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005_oiled.png; sourceTree = "<group>"; };
+		2DF30AFB11A899FC00D9810B /* 006_magic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006_magic.png; sourceTree = "<group>"; };
+		2DF30AFC11A899FC00D9810B /* 007_magic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 007_magic2.png; sourceTree = "<group>"; };
+		2DF30CC011A94A1200D9810B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2DF30CC411A94A4500D9810B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* JoseonCamera_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoseonCamera_Prefix.pch; sourceTree = "<group>"; };
+		385348FC167DA69F0055CDD8 /* Cauly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cauly.h; sourceTree = "<group>"; };
+		385348FD167DA69F0055CDD8 /* CaulyAdSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyAdSetting.h; sourceTree = "<group>"; };
+		385348FE167DA69F0055CDD8 /* CaulyAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyAdView.h; sourceTree = "<group>"; };
+		385348FF167DA69F0055CDD8 /* CaulyInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaulyInterstitialAd.h; sourceTree = "<group>"; };
+		38534901167DA69F0055CDD8 /* cauly_default_banner_ipad_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cauly_default_banner_ipad_large.png; sourceTree = "<group>"; };
+		38534902167DA69F0055CDD8 /* cauly_default_banner_ipad_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cauly_default_banner_ipad_small.png; sourceTree = "<group>"; };
+		38534903167DA69F0055CDD8 /* cauly_default_banner_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cauly_default_banner_iphone.png; sourceTree = "<group>"; };
+		38534904167DA69F0055CDD8 /* libCaulyAds.a ( armv7 , armv7s ) */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCaulyAds.a ( armv7 , armv7s )"; sourceTree = "<group>"; };
+		38534953167DA71E0055CDD8 /* CaulyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaulyHelper.h; path = ../CaulyHelper.h; sourceTree = "<group>"; };
+		38534954167DA71E0055CDD8 /* CaulyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaulyHelper.m; path = ../CaulyHelper.m; sourceTree = "<group>"; };
+		38534956167DA9A10055CDD8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		38534958167DA9B90055CDD8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3853495B167DA9CC0055CDD8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3853495D167DAAC40055CDD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3853495F167DAAE80055CDD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		38534961167DB3630055CDD8 /* Icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon144.png; sourceTree = "<group>"; };
+		38B5414013AB418000111244 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = ../../../../System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<group>"; };
+		38B5414B13AB42E600111244 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		38B5414D13AB42F200111244 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		38B5414F13AB42FB00111244 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38B5415013AB431800111244 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		38B5415213AB432200111244 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38B5415413AB432900111244 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38B5415613AB450600111244 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon114.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* JoseonCamera-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JoseonCamera-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3853495C167DA9CC0055CDD8 /* MessageUI.framework in Frameworks */,
+				3853495A167DA9C00055CDD8 /* MapKit.framework in Frameworks */,
+				38534959167DA9B90055CDD8 /* EventKit.framework in Frameworks */,
+				38534957167DA9A10055CDD8 /* MediaPlayer.framework in Frameworks */,
+				38B5415513AB432900111244 /* CoreGraphics.framework in Frameworks */,
+				38B5415313AB432200111244 /* QuartzCore.framework in Frameworks */,
+				38B5414E13AB42F200111244 /* CoreLocation.framework in Frameworks */,
+				38B5414C13AB42E600111244 /* CFNetwork.framework in Frameworks */,
+				38B5414113AB418000111244 /* SystemConfiguration.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				38534939167DA69F0055CDD8 /* libCaulyAds.a ( armv7 , armv7s ) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* JoseonCameraAppDelegate.h */,
+				1D3623250D0F684500981E51 /* JoseonCameraAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* JoseonCameraViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* JoseonCameraViewController.m */,
+				2DD3DC7411A8909000A7460B /* FontViewController.h */,
+				2DD3DC7511A8909000A7460B /* FontViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* JoseonCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				38534961167DB3630055CDD8 /* Icon144.png */,
+				3853495F167DAAE80055CDD8 /* Default-568h@2x.png */,
+				3853495B167DA9CC0055CDD8 /* MessageUI.framework */,
+				38534958167DA9B90055CDD8 /* EventKit.framework */,
+				38534956167DA9A10055CDD8 /* MediaPlayer.framework */,
+				38B5415413AB432900111244 /* CoreGraphics.framework */,
+				38B5415213AB432200111244 /* QuartzCore.framework */,
+				38B5415013AB431800111244 /* CoreAudio.framework */,
+				38B5414F13AB42FB00111244 /* CoreGraphics.framework */,
+				38B5414D13AB42F200111244 /* CoreLocation.framework */,
+				38B5414B13AB42E600111244 /* CFNetwork.framework */,
+				38B5414013AB418000111244 /* SystemConfiguration.framework */,
+				385348F8167DA69F0055CDD8 /* CaulySDK3 */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				2D89B2121270AD70009A2B21 /* MapKit.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* JoseonCamera_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DF30ABE11A8971E00D9810B /* Images */,
+				2899E5210DE3E06400AC0155 /* JoseonCameraViewController.xib */,
+				2DF30CC011A94A1200D9810B /* Icon.png */,
+				2DEC88061270C87D000C8670 /* Icon72.png */,
+				38B5415613AB450600111244 /* Icon114.png */,
+				2DF30CC411A94A4500D9810B /* Default.png */,
+				3853495D167DAAC40055CDD8 /* Default@2x.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2DD3DC7711A8909F00A7460B /* FontViewController.xib */,
+				8D1107310486CEB800E47090 /* JoseonCamera-Info.plist */,
+				2D5C957511AF8CC60062F4C0 /* ads.html */,
+				2DEC880B1270C8AE000C8670 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DF30ABE11A8971E00D9810B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2DF30ABF11A8971E00D9810B /* num1_1_0.png */,
+				2DF30AC011A8971E00D9810B /* num1_1_1.png */,
+				2DF30AC111A8971E00D9810B /* num1_1_2.png */,
+				2DF30AC211A8971E00D9810B /* num1_2_1.png */,
+				2DF30AC311A8971E00D9810B /* num1_2_2.png */,
+				2DF30AC411A8971E00D9810B /* num1_2_3.png */,
+				2D5E0C6B11A73B19001EF8BB /* no1.png */,
+				2DF30AF511A899FC00D9810B /* 001_blue.png */,
+				2DF30AF611A899FC00D9810B /* 002_bloom.png */,
+				2DF30AF711A899FC00D9810B /* 002_line.png */,
+				2DF30AF811A899FC00D9810B /* 003_watered.png */,
+				2DF30AF911A899FC00D9810B /* 004_ink.png */,
+				2DF30AFA11A899FC00D9810B /* 005_oiled.png */,
+				2DF30AFB11A899FC00D9810B /* 006_magic.png */,
+				2DF30AFC11A899FC00D9810B /* 007_magic2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		385348F8167DA69F0055CDD8 /* CaulySDK3 */ = {
+			isa = PBXGroup;
+			children = (
+				385348FB167DA69F0055CDD8 /* library */,
+			);
+			name = CaulySDK3;
+			path = CaulySDK3;
+			sourceTree = "<group>";
+		};
+		385348FB167DA69F0055CDD8 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				385348FC167DA69F0055CDD8 /* Cauly.h */,
+				385348FD167DA69F0055CDD8 /* CaulyAdSetting.h */,
+				385348FE167DA69F0055CDD8 /* CaulyAdView.h */,
+				385348FF167DA69F0055CDD8 /* CaulyInterstitialAd.h */,
+				38534953167DA71E0055CDD8 /* CaulyHelper.h */,
+				38534954167DA71E0055CDD8 /* CaulyHelper.m */,
+				38534900167DA69F0055CDD8 /* DefaultImages */,
+				38534904167DA69F0055CDD8 /* libCaulyAds.a ( armv7 , armv7s ) */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		38534900167DA69F0055CDD8 /* DefaultImages */ = {
+			isa = PBXGroup;
+			children = (
+				38534901167DA69F0055CDD8 /* cauly_default_banner_ipad_large.png */,
+				38534902167DA69F0055CDD8 /* cauly_default_banner_ipad_small.png */,
+				38534903167DA69F0055CDD8 /* cauly_default_banner_iphone.png */,
+			);
+			path = DefaultImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* JoseonCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JoseonCamera" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoseonCamera;
+			productName = JoseonCamera;
+			productReference = 1D6058910D05DD3D006BFB54 /* JoseonCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JoseonCamera" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* JoseonCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* JoseonCameraViewController.xib in Resources */,
+				2D5E0C6C11A73B19001EF8BB /* no1.png in Resources */,
+				2DD3DC7811A8909F00A7460B /* FontViewController.xib in Resources */,
+				2DF30AC511A8971E00D9810B /* num1_1_0.png in Resources */,
+				2DF30AC611A8971E00D9810B /* num1_1_1.png in Resources */,
+				2DF30AC711A8971E00D9810B /* num1_1_2.png in Resources */,
+				2DF30AC811A8971E00D9810B /* num1_2_1.png in Resources */,
+				2DF30AC911A8971E00D9810B /* num1_2_2.png in Resources */,
+				2DF30ACA11A8971E00D9810B /* num1_2_3.png in Resources */,
+				2DF30AFD11A899FC00D9810B /* 001_blue.png in Resources */,
+				2DF30AFE11A899FC00D9810B /* 002_bloom.png in Resources */,
+				2DF30AFF11A899FC00D9810B /* 002_line.png in Resources */,
+				2DF30B0011A899FC00D9810B /* 003_watered.png in Resources */,
+				2DF30B0111A899FC00D9810B /* 004_ink.png in Resources */,
+				2DF30B0211A899FC00D9810B /* 005_oiled.png in Resources */,
+				2DF30B0311A899FC00D9810B /* 006_magic.png in Resources */,
+				2DF30B0411A899FC00D9810B /* 007_magic2.png in Resources */,
+				2DF30CC111A94A1200D9810B /* Icon.png in Resources */,
+				2DF30CC511A94A4500D9810B /* Default.png in Resources */,
+				2D5C957611AF8CC60062F4C0 /* ads.html in Resources */,
+				2DEC88071270C87D000C8670 /* Icon72.png in Resources */,
+				38B5415713AB450600111244 /* Icon114.png in Resources */,
+				38534936167DA69F0055CDD8 /* cauly_default_banner_ipad_large.png in Resources */,
+				38534937167DA69F0055CDD8 /* cauly_default_banner_ipad_small.png in Resources */,
+				38534938167DA69F0055CDD8 /* cauly_default_banner_iphone.png in Resources */,
+				3853495E167DAAC40055CDD8 /* Default@2x.png in Resources */,
+				38534960167DAAE80055CDD8 /* Default-568h@2x.png in Resources */,
+				38534962167DB3630055CDD8 /* Icon144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* JoseonCameraAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* JoseonCameraViewController.m in Sources */,
+				2DD3DC7611A8909000A7460B /* FontViewController.m in Sources */,
+				38534955167DA71E0055CDD8 /* CaulyHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JoseonCamera_Prefix.pch;
+				INFOPLIST_FILE = "JoseonCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../CaulySDK/Include\"",
+					"\"$(SRCROOT)/../CaulySDK3/library\"",
+					"\"$(SRCROOT)/../CaulySDK3/library_armv6_armv7\"",
+				);
+				PRODUCT_NAME = JoseonCamera;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JoseonCamera_Prefix.pch;
+				INFOPLIST_FILE = "JoseonCamera-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../CaulySDK/Include\"",
+					"\"$(SRCROOT)/../CaulySDK3/library\"",
+					"\"$(SRCROOT)/../CaulySDK3/library_armv6_armv7\"",
+				);
+				PRODUCT_NAME = JoseonCamera;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jeong YunWon";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "28FA7D0B-B4B0-457D-B794-44AF90CE64B6";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JoseonCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JoseonCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
